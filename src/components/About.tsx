@@ -3,29 +3,29 @@ import { Code, Palette, Zap, Award, BookOpen, Users } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
 const skills = [
-  { name: "React", level: 90, color: "bg-blue-500" },
-  { name: "TypeScript", level: 85, color: "bg-blue-600" },
-  { name: "Node.js", level: 80, color: "bg-green-500" },
-  { name: "Python", level: 75, color: "bg-yellow-500" },
-  { name: "Design", level: 70, color: "bg-purple-500" },
-  { name: "MongoDB", level: 65, color: "bg-green-600" },
+  { name: "Python & Django", level: 95, color: "bg-brand-primary" },
+  { name: "Flask & FastAPI", level: 90, color: "bg-brand-secondary" },
+  { name: "React & JavaScript", level: 85, color: "bg-brand-accent" },
+  { name: "PostgreSQL & MongoDB", level: 88, color: "bg-brand-warning" },
+  { name: "Data Science & ML", level: 80, color: "bg-brand-success" },
+  { name: "Docker & AWS", level: 75, color: "bg-brand-info" },
 ];
 
 const highlights = [
   {
     icon: Code,
-    title: "Full-Stack Development",
-    description: "Experienced in both frontend and backend technologies with a focus on modern web development."
+    title: "Python Full-Stack",
+    description: "Building scalable web applications with Django, Flask, and modern Python frameworks with robust API design."
   },
   {
     icon: Palette,
-    title: "UI/UX Design",
-    description: "Creating beautiful, user-centered designs that provide exceptional user experiences."
+    title: "Data Science & ML",
+    description: "Developing machine learning models and data analysis solutions with Pandas, NumPy, Scikit-learn, and TensorFlow."
   },
   {
     icon: Zap,
-    title: "Performance Optimization",
-    description: "Passionate about writing clean, efficient code and optimizing application performance."
+    title: "API Development",
+    description: "Creating efficient REST APIs and microservices with FastAPI, Django REST Framework, and database optimization."
   }
 ];
 
@@ -42,8 +42,8 @@ export const About = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate Computer Science student with a love for creating innovative digital solutions. 
-            Currently in my third year, I combine technical expertise with creative thinking to build meaningful projects.
+            I'm a dedicated Computer Science student specializing in Python full-stack development and data science. 
+            Passionate about building scalable applications and leveraging machine learning to solve real-world problems.
           </p>
         </motion.div>
 
@@ -59,18 +59,17 @@ export const About = () => {
             <h3 className="text-2xl font-bold text-foreground mb-4">My Journey</h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                My passion for technology began in high school when I built my first website. 
-                What started as curiosity quickly grew into a deep fascination with how code can 
-                bring ideas to life and solve real-world problems.
+                My journey with Python began during my first year when I discovered its power for both web development and data analysis. 
+                What started as learning basic syntax evolved into building complex applications with Django and exploring machine learning algorithms.
               </p>
               <p>
-                Currently pursuing my Bachelor's in Computer Science at University College, 
-                I've maintained a 3.8 GPA while actively participating in hackathons, 
-                contributing to open-source projects, and leading the university's coding club.
+                Currently pursuing my Bachelor's in Computer Science at Tech University, 
+                I've maintained a 3.9 GPA while specializing in Python full-stack development, data science, and machine learning. 
+                I've completed several internships and contributed to multiple open-source Python projects.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new design trends, reading about 
-                emerging technologies, or mentoring fellow students in their programming journey.
+                When I'm not coding Python applications, you'll find me analyzing datasets, experimenting with new ML models, 
+                or mentoring fellow students in Django and data science fundamentals.
               </p>
             </div>
 
@@ -78,7 +77,7 @@ export const About = () => {
               <div className="flex items-center gap-3 p-4 bg-card rounded-lg border border-border">
                 <BookOpen className="w-8 h-8 text-brand-primary" />
                 <div>
-                  <p className="font-semibold text-foreground">3.8 GPA</p>
+                  <p className="font-semibold text-foreground">3.9 GPA</p>
                   <p className="text-sm text-muted-foreground">Academic Excellence</p>
                 </div>
               </div>

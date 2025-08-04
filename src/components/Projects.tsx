@@ -6,63 +6,43 @@ import { Badge } from '@/components/ui/badge';
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
-    githubUrl: "#",
-    liveUrl: "#",
-    icon: Globe,
-    featured: true
-  },
-  {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-    technologies: ["React", "TypeScript", "Socket.io", "Express", "PostgreSQL"],
+    title: "E-Learning Platform",
+    description: "Comprehensive e-learning platform built with Django and React. Features include course management, video streaming, progress tracking, quiz system, and payment integration with Stripe API.",
+    image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=400&fit=crop",
+    technologies: ["Django", "Python", "React", "PostgreSQL", "Redis", "Stripe"],
     githubUrl: "#",
     liveUrl: "#",
     icon: Code,
     featured: true
   },
   {
-    title: "Weather Mobile App",
-    description: "Cross-platform mobile app providing detailed weather forecasts with beautiful animations and location-based services.",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-    technologies: ["React Native", "Redux", "API Integration", "Expo"],
-    githubUrl: "#",
-    liveUrl: "#",
-    icon: Smartphone,
-    featured: false
-  },
-  {
-    title: "Data Visualization Dashboard",
-    description: "Interactive dashboard for visualizing complex datasets with charts, graphs, and real-time data updates.",
+    title: "Data Analytics Dashboard",
+    description: "Powerful analytics dashboard using Flask and Plotly for real-time data visualization. Includes machine learning predictions, data preprocessing, and interactive charts with Python backend.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-    technologies: ["Vue.js", "D3.js", "Python", "Flask", "Chart.js"],
+    technologies: ["Flask", "Python", "Pandas", "Plotly", "Scikit-learn", "MongoDB"],
     githubUrl: "#",
     liveUrl: "#",
     icon: Database,
-    featured: false
+    featured: true
   },
   {
-    title: "AI Chat Assistant",
-    description: "Intelligent chatbot using natural language processing to provide helpful responses and assistance.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
-    technologies: ["Python", "TensorFlow", "React", "FastAPI", "NLP"],
-    githubUrl: "#",
-    liveUrl: "#",
-    icon: Code,
-    featured: false
-  },
-  {
-    title: "Social Media Platform",
-    description: "A modern social media platform with real-time messaging, post sharing, and social networking features.",
+    title: "Social Media API",
+    description: "RESTful API for social media platform with FastAPI. Features JWT authentication, post management, real-time messaging, and image upload with AWS S3 integration.",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
-    technologies: ["Next.js", "Prisma", "NextAuth", "Tailwind", "Vercel"],
+    technologies: ["FastAPI", "Python", "PostgreSQL", "Redis", "AWS S3", "Docker"],
     githubUrl: "#",
     liveUrl: "#",
     icon: Globe,
+    featured: false
+  },
+  {
+    title: "ML Model Deployment Platform",
+    description: "Machine learning model deployment platform using Flask and Docker. Includes model versioning, A/B testing, performance monitoring, and automated retraining pipelines.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
+    technologies: ["Flask", "Python", "TensorFlow", "Docker", "MLflow", "AWS"],
+    githubUrl: "#",
+    liveUrl: "#",
+    icon: Smartphone,
     featured: false
   }
 ];
@@ -83,8 +63,8 @@ export const Projects = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Featured Projects</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A showcase of my recent work, from full-stack applications to creative experiments. 
-            Each project represents a unique challenge and learning opportunity.
+            A showcase of my Python full-stack projects, from web applications to machine learning solutions. 
+            Each project demonstrates my expertise in Django, Flask, data science, and modern development practices.
           </p>
         </motion.div>
 

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-const typewriterText = "Creative Technologist";
+const typewriterText = "Python Full Stack Developer";
 
 export const Hero = () => {
   return (
@@ -44,7 +44,7 @@ export const Hero = () => {
               transition={{ delay: 0.4 }}
               className="text-5xl md:text-7xl font-bold text-foreground leading-tight"
             >
-              Alex Johnson
+              Sarah Williams
             </motion.h1>
             
             <motion.div
@@ -84,8 +84,8 @@ export const Hero = () => {
               transition={{ delay: 1.8 }}
               className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
             >
-              Passionate about creating digital experiences that blend creativity with cutting-edge technology. 
-              Currently pursuing Computer Science with a focus on full-stack development.
+              Passionate Python developer building scalable web applications with Django/Flask and creating data-driven solutions. 
+              Currently pursuing Computer Science with specialization in machine learning and backend development.
             </motion.p>
             
             <motion.div
