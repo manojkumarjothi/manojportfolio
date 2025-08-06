@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion } from 'framer-motion';
 
 interface CustomLoaderProps {
@@ -5,15 +6,18 @@ interface CustomLoaderProps {
 }
 
 export const CustomLoader: React.FC<CustomLoaderProps> = ({ onComplete }) => {
+  // Start the 3-second timer immediately
+  React.useEffect(() => {
+    const timer = setTimeout(onComplete, 3000);
+    return () => clearTimeout(timer);
+  }, [onComplete]);
+
   return (
     <motion.div
       initial={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
       className="fixed inset-0 bg-gradient-to-br from-background via-background to-brand-primary/5 flex items-center justify-center z-40"
-      onAnimationComplete={() => {
-        setTimeout(onComplete, 3000); // Exactly 3 seconds
-      }}
     >
       <div className="relative flex flex-col items-center">
         {/* Outer rotating ring */}
