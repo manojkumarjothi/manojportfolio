@@ -3,9 +3,9 @@ import { Code, Palette, Zap, Award, BookOpen, Users } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
 const skills = [
-  { name: "Python & Django", level: 95, color: "bg-brand-primary" },
-  { name: "Flask & FastAPI", level: 90, color: "bg-brand-secondary" },
-  { name: "React & JavaScript", level: 85, color: "bg-brand-accent" },
+  { name: "Python & Django", level: 80, color: "bg-brand-primary" },
+  { name: "Flask & FastAPI", level: 80, color: "bg-brand-secondary" },
+  { name: "React & JavaScript", level: 80, color: "bg-brand-accent" },
   { name: "PostgreSQL & MongoDB", level: 88, color: "bg-brand-warning" },
   { name: "Data Science & ML", level: 80, color: "bg-brand-success" },
   { name: "Docker & AWS", level: 75, color: "bg-brand-info" },
@@ -59,17 +59,17 @@ export const About = () => {
             <h3 className="text-2xl font-bold text-foreground mb-4">My Journey</h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                My journey with Python began during my first year when I discovered its power for both web development and data analysis. 
-                What started as learning basic syntax evolved into building complex applications with Django and exploring machine learning algorithms.
+                My journey with Python began during my first year of engineering when I discovered its versatility in both web development and data analysis. 
+                What started with learning basic syntax quickly evolved into building full-fledged applications using Django and exploring machine learning algorithms.
               </p>
               <p>
-                Currently pursuing my Bachelor's in Computer Science at Tech University, 
-                I've maintained a 3.9 GPA while specializing in Python full-stack development, data science, and machine learning. 
-                I've completed several internships and contributed to multiple open-source Python projects.
+                I’m currently pursuing my Bachelor of Engineering in Computer Science and Engineering (BE-CSE) at
+                Adhiyamaan College of Engineering, Hosur, where I’ve maintained a CGPA of 8.5. I specialize in Python full-stack development, data science, and machine learning. 
+                Over the years, I’ve completed several internships and contributed to multiple open-source Python projects, gaining hands-on experience across domains.
               </p>
               <p>
-                When I'm not coding Python applications, you'll find me analyzing datasets, experimenting with new ML models, 
-                or mentoring fellow students in Django and data science fundamentals.
+               When I’m not developing Python applications, you’ll often find me analyzing datasets, experimenting with new ML models, or mentoring fellow students in Django and 
+               data science fundamentals. I’m passionate about continuous learning and sharing knowledge within the developer community.
               </p>
             </div>
 
@@ -77,14 +77,14 @@ export const About = () => {
               <div className="flex items-center gap-3 p-4 bg-card rounded-lg border border-border">
                 <BookOpen className="w-8 h-8 text-brand-primary" />
                 <div>
-                  <p className="font-semibold text-foreground">3.9 GPA</p>
+                  <p className="font-semibold text-foreground">8.5 GPA</p>
                   <p className="text-sm text-muted-foreground">Academic Excellence</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 p-4 bg-card rounded-lg border border-border">
                 <Users className="w-8 h-8 text-brand-secondary" />
                 <div>
-                  <p className="font-semibold text-foreground">50+ Students</p>
+                  <p className="font-semibold text-foreground">5+ Students</p>
                   <p className="text-sm text-muted-foreground">Mentored</p>
                 </div>
               </div>
