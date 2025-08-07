@@ -6,19 +6,19 @@ import { Badge } from '@/components/ui/badge';
 
 const projects = [
   {
-    title: "E-Learning Platform",
-    description: "Comprehensive e-learning platform built with Django and React. Features include course management, video streaming, progress tracking, quiz system, and payment integration with Stripe API.",
-    image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=400&fit=crop",
+    title: "Fitness Project",
+    description: "Developed a fitness tracker web app using Django that allows users to log workouts, track calories, and monitor progress. Integrated user authentication and interactive dashboards for a personalized fitness experience.",
+    image: "https://assets.clevelandclinic.org/transform/StoryPanel/73467bf7-5b62-48df-8162-fe76556ff0a2/cardio-weights-workout-1558964954",
     technologies: ["Django", "Python", "React", "PostgreSQL", "Redis", "Stripe"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/manojkumarjothi/fitness.git",
     liveUrl: "#",
     icon: Code,
     featured: true
   },
   {
-    title: "Data Analytics Dashboard",
-    description: "Powerful analytics dashboard using Flask and Plotly for real-time data visualization. Includes machine learning predictions, data preprocessing, and interactive charts with Python backend.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    title: "Text Message Encryption",
+    description: "Developed a secure text message encryption web app using Python and Django, implementing classical and modern encryption algorithms like Caesar Cipher, AES, and DES. The system ensures safe communication by allowing users to encrypt and decrypt messages with user-friendly interfaces.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRFi_krgADYDhn0wxfjiCja-rPZDYk4JGmyg&s",
     technologies: ["Flask", "Python", "Pandas", "Plotly", "Scikit-learn", "MongoDB"],
     githubUrl: "#",
     liveUrl: "#",
@@ -26,21 +26,21 @@ const projects = [
     featured: true
   },
   {
-    title: "Social Media API",
-    description: "RESTful API for social media platform with FastAPI. Features JWT authentication, post management, real-time messaging, and image upload with AWS S3 integration.",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
+    title: "Exam Score Estimator",
+    description: "Built a machine learning-based web application using Flask to predict student exam scores based on study hours and related inputs. Integrated interactive UI and real-time predictions to help students estimate performance and plan effectively.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFp1tC-iGLkNmJtukGr9ZbJ_jPS1G4PbeWhw&s",
     technologies: ["FastAPI", "Python", "PostgreSQL", "Redis", "AWS S3", "Docker"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/manojkumarjothi/Text-message-Encryption.git",
     liveUrl: "#",
     icon: Globe,
     featured: false
   },
   {
-    title: "ML Model Deployment Platform",
-    description: "Machine learning model deployment platform using Flask and Docker. Includes model versioning, A/B testing, performance monitoring, and automated retraining pipelines.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
+    title: " News Aggregator",
+    description: "Developed a news aggregator web app that collects and displays real-time news from multiple sources using web scraping and APIs. Features categorized news sections, search functionality, and a clean, responsive UI for enhanced user experience.",
+    image: "https://sloboda-studio.com/wp-content/uploads/2020/08/Group-100.jpg.webp",
     technologies: ["Flask", "Python", "TensorFlow", "Docker", "MLflow", "AWS"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/manojkumarjothi/News-Aggregator.git",
     liveUrl: "#",
     icon: Smartphone,
     featured: false

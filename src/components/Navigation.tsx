@@ -73,7 +73,7 @@ export const Navigation = () => {
               className="text-2xl font-bold text-foreground"
             >
               <span className="gradient-primary bg-clip-text text-transparent">
-                SW
+                MK
               </span>
             </motion.a>
 

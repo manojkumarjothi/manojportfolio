@@ -63,19 +63,19 @@ export const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "alex.johnson@email.com",
-      href: "mailto:alex.johnson@email.com"
+      value: "manojkumarjothi2006@gmail.com",
+      href: "mailto:manojkumarjothi2006@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "9894340815",
+      href: "tel:9894340815"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Hosur, Tamil Nadu, India",
       href: "#"
     }
   ];
@@ -197,7 +197,7 @@ export const Contact = () => {
               <h4 className="font-bold mb-2">Quick Response</h4>
               <p className="text-sm opacity-90">
                 For urgent inquiries, feel free to call or text me directly. 
-                I'm usually available during business hours (9 AM - 6 PM PST).
+                I'm usually available during business hours (9 AM - 6 PM IST).
               </p>
             </motion.div>
           </motion.div>

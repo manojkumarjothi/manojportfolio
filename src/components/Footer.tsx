@@ -6,11 +6,11 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/manojkumarjothi/", label: "GitHub" },
+    { icon: Linkedin, href: "www.linkedin.com/in/manoj-kumar-97b6672a3", label: "LinkedIn" },
     { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-    { icon: Mail, href: "mailto:alex.johnson@email.com", label: "Email" }
+    { icon: Instagram, href: "https://www.instagram.com/_._mr.mano?igsh=MWZrb2N4Z3Q3NWd2NA==", label: "Instagram" },
+    { icon: Mail, href: "mailto:manojkumarjothi2006@gmail.com", label: "Email" }
   ];
 
   const quickLinks = [
@@ -40,7 +40,7 @@ export const Footer = () => {
             transition={{ duration: 0.6 }}
             className="lg:col-span-2"
           >
-            <h3 className="text-2xl font-bold text-foreground mb-4">Alex Johnson</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-4">Manoj Kumar</h3>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
               A passionate Computer Science student crafting digital experiences that blend 
               creativity with cutting-edge technology. Always learning, always building.
@@ -103,9 +103,9 @@ export const Footer = () => {
           >
             <h4 className="text-lg font-semibold text-foreground mb-4">Get In Touch</h4>
             <div className="space-y-3 text-muted-foreground">
-              <p>San Francisco, CA</p>
-              <p>alex.johnson@email.com</p>
-              <p>+1 (555) 123-4567</p>
+              <p>Hosur, Tamil Nadu, India</p>
+              <p>manojkumarjothi2006@gmail.com</p>
+              <p>9894340815</p>
             </div>
             <motion.div
               initial={{ opacity: 0 }}
@@ -142,7 +142,7 @@ export const Footer = () => {
           className="flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <div className="flex items-center gap-2 text-muted-foreground">
-            <span>© {currentYear} Alex Johnson. Made with</span>
+            <span>© {currentYear} Manoj Kumar. Made with</span>
             <motion.div
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 1, repeat: Infinity }}

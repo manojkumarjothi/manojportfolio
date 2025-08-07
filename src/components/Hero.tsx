@@ -50,7 +50,7 @@ export const Hero = () => {
                   transition={{ delay: 0.4 }}
                   className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight"
                 >
-                  Sarah Williams
+                  Manoj Kumar
                 </motion.h1>
                 
                 <motion.div
@@ -124,9 +124,9 @@ export const Hero = () => {
                   className="flex gap-6 justify-center mt-8"
                 >
                   {[
-                    { icon: Github, href: "#", label: "GitHub" },
-                    { icon: Linkedin, href: "#", label: "LinkedIn" },
-                    { icon: Mail, href: "#contact", label: "Email" }
+                    { icon: Github, href: "https://github.com/manojkumarjothi/", label: "GitHub" },
+                    { icon: Linkedin, href: "https://www.linkedin.com/in/manoj-kumar-97b6672a3", label: "LinkedIn" },
+                    { icon: Mail, href: "mailto:manojkumarjothi2006@gmail.com", label: "Email" }
                   ].map(({ icon: Icon, href, label }, index) => (
                     <motion.a
                       key={label}
@@ -212,10 +212,10 @@ export const Hero = () => {
                 className="grid grid-cols-2 md:grid-cols-4 gap-8"
               >
                 {[
-                  { number: "15+", label: "Projects Completed" },
-                  { number: "3.9", label: "GPA Maintained" },
-                  { number: "50+", label: "Students Mentored" },
-                  { number: "2+", label: "Years Experience" }
+                  { number: "5+", label: "Projects Completed" },
+                  { number: "8.5", label: "GPA Maintained" },
+                  { number: "5+", label: "Students Mentored" },
+                  { number: "1+", label: "Years Experience" }
                 ].map((stat, index) => (
                   <motion.div
                     key={stat.label}
