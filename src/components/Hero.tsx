@@ -4,7 +4,7 @@ import { ArrowDown, Download, Github, Linkedin, Mail, Code, Database, Globe, Spa
 import { Button } from '@/components/ui/button';
 import { ProgrammingLanguages } from './ProgrammingLanguages';
 
-const typewriterText = "Python Full Stack Developer";
+const typewriterText = "PythonFull Stack Developer";
 
 export const Hero = () => {
   return (
